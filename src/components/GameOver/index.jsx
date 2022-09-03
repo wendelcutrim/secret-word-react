@@ -1,9 +1,12 @@
 import './style.css';
 
-const index = () => {
+const GameOver = ({ retry }) => {
   return (
-    <div>index</div>
+    <div>
+      <h1>Game Over</h1>
+      <button onClick={retry}>Resetar Jogo</button>
+    </div>
   )
 }
 
-export default index
+export default GameOver
